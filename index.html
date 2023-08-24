@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Manrope:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span>Kimms</span>
+            </div>
+            <ul class="utils">
+                <li>About</li>
+                <li>Portfolio</li>
+            </ul>
+            <span class="bar"></span>
+        </header>
+        <div class="contents">
+            <div class="about section">
+                <!-- about_main -->
+                <div class="about_main">
+                    <div class="section_inner">
+                        <div class="section_main_title">
+                            <p>Web Publisher</p>
+                            <p>Kimms.</p>
+                        </div>
+                        <div class="section_main_desc">
+                            <p class="dot">웹 퍼블리셔 김민서</p>
+                            <p class="sub">도전을 두려워하지 않는 신입 웹 퍼블리셔 김민서라고 합니다.</p>
+                            <p>새롭고 신기한 것을 파고드는 걸 좋아하고,</p>
+                            <p>호기심이 많아 이것저것 찾아보는 것 또한 좋아합니다.</p>
+                        </div>
+                        <div class="arrow">
+                            <span>
+                                <img src="./assets/arrow.svg" alt="">
+                            </span>
+                            <p>Keep Scrolling</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- about_info -->
+                <div class="about_info">
+                    <p class="about_me">About Me</p>
+                    <div class="about_info_column">
+                        <div>
+                            <div class="info_col_wrap">
+                                <span class="info_img">
+                                    <img src="./assets/education.jpg" alt="">
+                                </span>
+                                <div class="info_desc">
+                                    <p class="info_tit">'비전공자' 출신인데 가능할까?</p>
+                                    <p>일어통번역, 세무회계, 그리고 퍼블리싱<br>비전공자의 퍼블리싱 도전기</p>
+                                    <p class="info_more">
+                                        저는 원래 컴퓨터와는 전혀 상관없는 전공 및 직종으로, 평범하게 직장생활을 하던 직장인이었습니다.<br>
+                                        화려한 시각효과나 디자인과 관련해 흥미가 있긴 했지만 직접 하고 싶다는 생각은 못할 시기라 취미로만 구경하는 정도였죠.<br>
+                                        그렇게 딱히 하고싶은 일이 없던 저에게 퍼블리싱 및 코딩이라는 분야가 눈에 띈 건 정말 우연이었습니다.<br>
+                                        코드를 입력하는 것만으로 화면이 그려지고 다양한 효과를 나타낼 수 있다는 게 저한테는 상당한 호기심을 불러왔습니다.<br>
+                                        비전공자로서 새로운 분야에 도전한다는 것이 계란으로 바위치기만큼 무모하게도 느껴졌지만, 무언가 하고싶다는 마음이 생겼다는 것에<br>
+                                        큰 의미를 두고 저는 도전을  위해 첫 발을 내딛게 되었습니다.
+                                    </p>
+                                </div>
+                            </div>
+                            <span class="btn_col_open">
+                                <span class="col_more">자세히 보기</span>
+                                <span class="col_img"></span>
+                            </span>
+                        </div>
+                        <div>
+                            <div class="info_col_wrap">
+                                <span class="info_img">
+                                    <img src="./assets/desktop.jpg" alt="">
+                                </span>
+                                <div class="info_desc">
+                                    <p class="info_tit">퍼블리셔로서의 시작</p>
+                                    <p>재밌어 보인다는 이유만으로 이끌렸던 내 생각이<br>코드로 그려지기 시작했다.</p>
+                                    <p class="info_more">
+                                        도전을 위해 새 분야로 발을 들여놓고 나니 취미로 HTML, CSS 영상강의를 시청할 때와는 또 다른 세상이 펼쳐지는 느낌이었습니다.<br>
+                                        국비지원 퍼블리셔 양성과정을 수료한 후 다시 공부하고 포트폴리오를 준비하는 과정에서 내가 모르는 세상이 얼마나 넓은지에 대해 체감했듯이,<br>
+                                        업무로서 퍼블리싱을 마주했을 때는 또 다른 시야로 접근할 수 있는 힘을 얻게 되었습니다. <br>
+                                        구글링으로 원하는 정보를 얻는 방법, 협업을 할 때의 태도, 보다 효율적인 유지보수 방법 등 작업에 대해<br>
+                                        구체적으로 파고들수록 앞으로 어떤 방향으로 나아가야할 지도 조금씩 감이 잡히게 되었습니다.
+                                    </p>
+                                </div>
+                            </div>
+                            <span class="btn_col_open">
+                                <span class="col_more">자세히 보기</span>
+                                <span class="col_img"></span>
+                            </span>
+                        </div>
+                        <div>
+                            <div class="info_col_wrap">
+                                <span class="info_img">
+                                    <img src="./assets/conversation.jpg" alt="">
+
+                                </span>
+                                <div class="info_desc">
+                                    <p class="info_tit">새로운 분야, 새로운 세계</p>
+                                    <p>앞으로 내가 더 할 수 있는 일이 얼마나 될까?<br>미래를 꿈꾸는 퍼블리셔
+                                    </p>
+                                    <p class="info_more">
+                                        처음 막연하게  흥미를 쫓아 시작했을 때와 차이점이 있다면, 가장 크게 달라진 것은 공부의 필요성을 절감했다는 것입니다.<br>
+                                        단순히 내가 많이 알기 위해서라기보다도 앞으로 내가 계속 흥미를 느끼고 더욱 편하게 작업하기 위해 앞으로 더더욱 다양해질 이 분야에 대해 공부하고 싶다는 욕구가 생기게 되었습니다.<br>
+                                        앞으로도 배움에 대한 의지를 꺾지 않고 새로운 것을 알아가는 인재가 되는 것이 목표입니다.<br>
+                                        분야와 능력에 한정짓지 않고 타인과 함께 호흡하며 성장하는 모습을 보여드리겠습니다.<br>
+                                        잘 부탁드립니다! 😎
+                                    </p>
+                                </div>
+                            </div>
+                            <span class="btn_col_open">
+                                <span class="col_more">자세히 보기</span>
+                                <span class="col_img"></span>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- about_contact -->
+                <div class="about_contact ">
+                    <div class="section_inner">
+                        <div class="about_contact_title">
+                            <p>Contact Me!</p>
+                        </div>
+                        <div class="about_contact_profile">
+                            <div class="profile_pics">
+                                <span>
+                                    <img src="./assets/me03.jpg" alt="">
+                                </span>
+                                <span>
+                                    <img src="./assets/me02.jpg" alt="">
+                                </span>
+                            </div>
+                            <ul class="profile_infos">
+                                <li>
+                                    <span>
+                                        <img src="./assets/tiger.svg" alt="">
+                                    </span>
+                                    <div class="name">
+                                        <p>김 민 서</p>
+                                        <p class="manrope">1998. 12. 30 (만 24세)</p>
+                                    </div>
+                                </li>
+                                <li class="manrope">
+                                    <span>
+                                        <img src="./assets/tel.svg" alt="">
+                                    </span>
+                                    <p>010 - 3892 - 8175</p>
+                                </li>
+                                <li class="manrope">
+                                    <span><img src="./assets/mail.svg" alt=""></span>
+                                    <p>platin_ms@naver.com</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="about_footer">
+                    <p>본 페이지는 포트폴리오 용으로 제작되었습니다.</p>
+                    <p>ⓒ 2023 Kimms.</p>
+                </div>
+            </div>
+            <div class="portfolio section">
+                <div class="contents_inner">
+                    <p class="section_title">
+                        <span>Portfolio</span>
+                    </p>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slide_img">
+                                    <img src="./assets/donga.png" alt="">
+                                </div>
+                                <div class="slide_desc">
+                                    <div class="slide_desc_top">
+                                        <div class="slide_tit">
+                                            <span>동아제약</span>
+                                            <p>Dong A pharm</p>
+                                        </div>
+                                        <div class="slide_btn" onclick="window.open('http://platinms.dothome.co.kr/donga/')">
+                                            <span>Move to Site</span>
+                                        </div>
+                                    </div>
+                                    <ul class="slide_text">
+                                        <li>리뉴얼 페이지, 참여도 100% (개인 프로젝트)</li>
+                                        <li>html, css, jquery 사용 / 디자인 툴 figma 사용</li>
+                                        <li class="slide_text_margin">기존 동아제약 홈페이지에서 새롭게 디자인 후 마크업 진행.</li>
+                                        <li>작업 시간은 메인 및 서브페이지 포함 <span>디자인 3일, 코딩 3일</span> 소요되었습니다.</li>
+                                        </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_img">
+                                    <img src="./assets/NONFICTION_full.png" alt="">
+                                </div>
+                                <div class="slide_desc">
+                                    <div class="slide_desc_top">
+                                        <div class="slide_tit">
+                                            <span>논픽션</span>
+                                            <p>Nonfiction</p>
+                                        </div>
+                                        <div class="slide_btn"  onclick="window.open('http://platinms.dothome.co.kr/nonfiction/')">
+                                            <span>Move to Site</span>
+                                        </div>
+                                    </div>
+                                    <ul class="slide_text">
+                                        <li>클론코딩 페이지, 참여도 100% (개인 프로젝트)</li>
+                                        <li>html, css, jquery 사용</li>
+                                        <li class="slide_text_margin">코스메틱 브랜드 '논픽션' 페이지 클론코딩 진행.</li>
+                                        <li>작업 시간은 전체페이지 <span>코딩 2.5일</span> 소요되었습니다.</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev">Prev</div>
+                    <div class="swiper-button-next">Next</div>
+                </div>
+            </div>
+            <div class="contents_inner">
+                <div class="spell_area">
+                    <div class="spell_wrap spell_event">
+                        <div class="spell_line">
+                            <p>
+                                <span>P</span>
+                                <span>o</span>
+                                <span>r</span>
+                                <span>t</span>
+                                <span>f</span>
+                                <span>o</span>
+                                <span>l</span>
+                                <span>i</span>
+                                <span>o</span>
+                            </p>
+                            <p>
+                                <span>b</span>
+                                <span>y</span>
+                            </p>
+                            <p>
+                                <span>K</span>
+                                <span>i</span>
+                                <span>m</span>
+                                <span>m</span>
+                                <span>s</span>
+                                <span>.</span>
+                            </p>
+                        </div>
+                        <div class="spell_line">
+                            <p>
+                                <span>P</span>
+                                <span>o</span>
+                                <span>r</span>
+                                <span>t</span>
+                                <span>f</span>
+                                <span>o</span>
+                                <span>l</span>
+                                <span>i</span>
+                                <span>o</span>
+                            </p>
+                            <p>
+                                <span>b</span>
+                                <span>y</span>
+                            </p>
+                            <p>
+                                <span>K</span>
+                                <span>i</span>
+                                <span>m</span>
+                                <span>m</span>
+                                <span>s</span>
+                                <span>.</span>
+                            </p>
+                        </div>
+                        <div class="desc_wrap">
+                            <div class="desc_text">
+                                <strong>안녕하세요, 신입 웹 퍼블리셔 김민서입니다.</strong>
+                                <p>코드로 그려지는 세상🌏에 관심이 많습니다.</p>
+                                <p>호기심으로 가득한 분야에 도전한 만큼, 끊임없이 노력하는 인재가 되는 것이 목표입니다.</p>
+                                <p>제 포트폴리오를 방문해주셔서 감사합니다. 잘 부탁드립니다! 😁</p>
+                            </div>
+                            <div class="desc_more">
+                                <p class="manrope">Click to Rewind</p>
+                                <div class="circle">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="spell_wrap">
+                        <div class="spell_line">
+                            <p>
+                                <span>P</span>
+                                <span>o</span>
+                                <span>r</span>
+                                <span>t</span>
+                                <span>f</span>
+                                <span>o</span>
+                                <span>l</span>
+                                <span>i</span>
+                                <span>o</span>
+                            </p>
+                            <p>
+                                <span>b</span>
+                                <span>y</span>
+                            </p>
+                            <p>
+                                <span>K</span>
+                                <span>i</span>
+                                <span>m</span>
+                                <span>m</span>
+                                <span>s</span>
+                                <span>.</span>
+                            </p>
+                        </div>
+                        <div class="spell_line">
+                            <p>
+                                <span>P</span>
+                                <span>o</span>
+                                <span>r</span>
+                                <span>t</span>
+                                <span>f</span>
+                                <span>o</span>
+                                <span>l</span>
+                                <span>i</span>
+                                <span>o</span>
+                            </p>
+                            <p>
+                                <span>b</span>
+                                <span>y</span>
+                            </p>
+                            <p>
+                                <span>K</span>
+                                <span>i</span>
+                                <span>m</span>
+                                <span>m</span>
+                                <span>s</span>
+                                <span>.</span>
+                            </p>
+                        </div>
+                        <div class="spell_line">
+                            <p>
+                                <span>P</span>
+                                <span>o</span>
+                                <span>r</span>
+                                <span>t</span>
+                                <span>f</span>
+                                <span>o</span>
+                                <span>l</span>
+                                <span>i</span>
+                                <span>o</span>
+                            </p>
+                            <p>
+                                <span>b</span>
+                                <span>y</span>
+                            </p>
+                            <p>
+                                <span>K</span>
+                                <span>i</span>
+                                <span>m</span>
+                                <span>m</span>
+                                <span>s</span>
+                                <span>.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg_wrap">
+            <video src="./assets/weather.mp4" autoplay muted loop></video>
+        </div>
+    </div>
+
+    <script>
+        $('.utils li').click(function () {
+            $(this).addClass('on')
+            $(this).siblings().removeClass('on')
+            $('.bar').addClass('ani')
+
+            let idx = $(this).index();
+
+            $('.contents .section').eq(idx).siblings('.section').hide()
+            $('.contents .section').eq(idx).stop().slideDown('10000')
+
+            if (idx == 0) {
+                $('header').addClass('invert')
+            } else {
+                $('header').removeClass('invert')
+            }
+        })
+
+        $('.logo').click(function () {
+            $('.bar').removeClass('ani')
+            $('.contents .section').stop().fadeOut()
+            $('header').removeClass('invert')
+            $('.utils li').removeClass('on')
+        })
+
+        $('.spell_area').click(function () {
+            $(this).toggleClass('active')
+        })
+
+        $('.about_contact').hover(function () {
+            $(this).toggleClass('active')
+        })
+
+        // btn_col_open
+        $('.btn_col_open').mouseenter(function () {
+            $(this).find('img').attr('src', './assets/arrow_white.svg')
+        })
+        $('.btn_col_open').mouseleave(function () {
+            $(this).find('img').attr('src', './assets/arrow_green.svg')
+        })
+        $('.btn_col_open').click(function () {
+            $(this).toggleClass('open')
+            if ($(this).hasClass('open')) {
+                $(this).find('.col_more').text('돌아가기')
+                $(this).parent().siblings().hide()
+                $(this).siblings().find('.info_more').show()
+                $(this).siblings().children('.info_img').addClass('active')
+                $(this).siblings().find('.info_tit + p').hide()
+            } else {
+                $(this).find('.col_more').text('자세히 보기')
+                $(this).parent().siblings().show()
+                $(this).siblings().find('.info_more').hide()
+                $(this).siblings().children('.info_img').removeClass('active')
+                $(this).siblings().find('.info_tit + p').show()
+
+            }
+        })
+
+        const swiper = new Swiper('.swiper', {
+            direction: 'horizontal',
+            loop: true,
+            spaceBetween: 20,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+</body>
+
+</html>
